@@ -74,6 +74,16 @@ Copy the whole `skills/<skill-name>/` folder, including its `references/`, `LICE
 
 The CUMCM 2026 rules ask for an AI-use statement before the references and, when AI was used, an `AI工具使用详情.pdf` in the supporting materials that records tools, purposes, prompts and how outputs were adopted and checked. Core modeling and analysis must be led by the team, and AI-generated content must be reviewed by people. Other contests follow their own rules for the current year. See the [local summary](skills/cumcm-abstract/references/competition-compliance.md) and the [official rules](https://www.mcm.edu.cn/html_cn/node/fef94648f2836ab6cc81586f4c38512b.html).
 
+## Roadmap
+
+Planned skills, in no fixed order:
+
+- **Notation check** (符号说明): check that every symbol is defined once and used consistently across the paper.
+- **Sensitivity analysis write-up** (灵敏度分析): write the section from sensitivity results you already have.
+- **Model evaluation and extension** (模型评价与推广): state the strengths, limits and extensions that the paper's results support.
+
+Writing the model establishment and solving section is not planned. That is the team's core work, and the contest rules require the team to lead it. Suggestions are welcome in issues.
+
 ## Development
 
 ```sh
@@ -86,7 +96,7 @@ The checks use only the Python standard library. Python 3.11 or later is enough,
 
 Some files are copied into the skill folders so that each skill also works when installed on its own. `examples/official-2020-c/source.json` is copied to `references/official-2020-c-source.json` in four skills, and the upstream license texts in `licenses/` are copied to two skills. Edit the original and update every copy in the same change; the tests check that the copies match.
 
-Issues and pull requests are welcome.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to report problems and submit changes. Issues and pull requests are welcome.
 
 ## License
 

@@ -70,6 +70,16 @@ CUMCM Writing Skills 是一组用于数学建模竞赛论文写作的智能体 S
 
 国赛 2026 年规定：在参考文献前写 AI 工具使用声明；使用了 AI 的，在支撑材料中提交 `AI工具使用详情.pdf`，记录工具、用途、提示过程以及对输出的采纳、修改和核验情况。核心建模与分析须由参赛队主导，AI 参与的内容须经人工审查核实。其他比赛以各自当届规定为准。详见[本地要点](skills/cumcm-abstract/references/competition-compliance.md)和[官方规定](https://www.mcm.edu.cn/html_cn/node/fef94648f2836ab6cc81586f4c38512b.html)。
 
+## 路线图
+
+计划中的 Skill（不分先后）：
+
+- **符号说明**：检查全文每个符号是否只定义一次、前后用法是否一致。
+- **灵敏度分析**：根据你已有的灵敏度分析结果撰写这一节。
+- **模型评价与推广**：写出论文结果能够支持的优点、局限和推广方向。
+
+不计划做“模型的建立与求解”这一节的写作：这是参赛队的核心工作，竞赛规则也要求由参赛队主导。欢迎在 Issue 中提出建议。
+
 ## 开发
 
 ```sh
@@ -82,7 +92,7 @@ python evals/check_freshness.py
 
 为了让每个 Skill 单独安装也能用，有些文件复制到了各 Skill 目录里：`examples/official-2020-c/source.json` 复制为四个 Skill 中的 `references/official-2020-c-source.json`，`licenses/` 里的上游许可证复制到了两个 Skill 中。修改时先改原件，并在同一次提交里同步所有副本；测试会检查副本是否一致。
 
-欢迎提交 Issue 和 Pull Request。
+反馈问题和提交修改的方式见 [CONTRIBUTING.zh.md](CONTRIBUTING.zh.md)。欢迎提交 Issue 和 Pull Request。
 
 ## 许可证
 
