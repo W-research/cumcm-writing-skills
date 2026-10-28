@@ -1,0 +1,80 @@
+{
+  "R01": {
+    "skills": [
+      "cumcm-model-assumptions"
+    ],
+    "action": "use"
+  },
+  "R02": {
+    "skills": [
+      "cumcm-problem-restatement"
+    ],
+    "action": "use"
+  },
+  "R03": {
+    "skills": [
+      "cumcm-abstract"
+    ],
+    "action": "use"
+  },
+  "R04": {
+    "skills": [
+      "cumcm-problem-analysis"
+    ],
+    "action": "use"
+  },
+  "R05": {
+    "skills": [
+      "mathtype-texvc"
+    ],
+    "action": "use"
+  },
+  "R06": {
+    "skills": [],
+    "action": "answer"
+  },
+  "R07": {
+    "skills": [
+      "cumcm-problem-restatement",
+      "cumcm-model-assumptions"
+    ],
+    "action": "use"
+  },
+  "R08": {
+    "skills": [
+      "cumcm-model-assumptions",
+      "mathtype-texvc"
+    ],
+    "action": "use"
+  },
+  "R09": {
+    "skills": [],
+    "action": "clarify"
+  },
+  "R10": {
+    "skills": [],
+    "action": "clarify"
+  },
+  "R11": {
+    "skills": [],
+    "action": "answer"
+  },
+  "R12": {
+    "skills": [
+      "cumcm-problem-restatement"
+    ],
+    "action": "use"
+  },
+  "R13": {
+    "skills": [
+      "cumcm-abstract"
+    ],
+    "action": "clarify"
+  },
+  "R14": {
+    "skills": [
+      "cumcm-model-assumptions"
+    ],
+    "action": "use"
+  }
+}

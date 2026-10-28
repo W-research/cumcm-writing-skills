@@ -1,0 +1,17 @@
+{
+  "checked_on": "2026-10-26",
+  "author": "W",
+  "mathtype_author": "W",
+  "own_license": "MIT",
+  "github_references": [
+    {"repository": "Mr-potato-123/cumcm-paper-hand-skill", "commit": "2d46ef4b04f379c1a637ad6cbb07cb78985f7381", "license": "MIT", "copyright": "Copyright (c) 2026 数模skill contributors", "license_blob_sha": "148a812eefc30e3cbe8796e3c4f4dd7a749ef4a7", "local_notice": "licenses/cumcm-paper-hand-skill-MIT.txt"},
+    {"repository": "handsomeZR-netizen/mathmodel-skill", "commit": "d3941e14d8693fb4a79948e59afff3098734127e", "license": "MIT", "copyright": "Copyright (c) 2026 handsomeZR-netizen", "license_blob_sha": "4c21281d37cb08ecc4fc0fe8d4ddb16bc44bfbc3", "local_notice": "licenses/mathmodel-skill-MIT.txt"}
+  ],
+  "cumcm_ai_rules": {"url": "https://www.mcm.edu.cn/html_cn/node/fef94648f2836ab6cc81586f4c38512b.html", "pdf_url": "https://www.mcm.edu.cn/upload_cn/node/785/Glps6mBh6563c55c45300fede72ddbf6eb33d3a8.pdf", "effective_date": "2026-09-01", "verified": "full official HTML and one-page PDF; language-polishing exception applies to item 4(4), not all declaration duties"},
+  "official_case_manifest": "examples/official-2020-c/source.json",
+  "texvc_grammar_reference": {"repository": "wikimedia/mediawiki-services-texvcjs", "commit": "7d896329a1387bb58a7fd6388f8b212434911e59", "path": "lib/parser.pegjs", "code_bundled": false, "native_mathtype_equivalence_claimed": false},
+  "wiris_sources": [
+    "https://docs.wiris.com/en_US/mathtype-7-with-microsoft-office-2016-or-later",
+    "https://docs.wiris.com/en_US/mathtype-for-html-formats-standards/latex-support"
+  ]
+}

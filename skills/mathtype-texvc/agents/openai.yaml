@@ -1,0 +1,4 @@
+interface:
+  display_name: "MathType 公式源码"
+  short_description: "为 Word MathType 准备公式源码，区分语法约束、编号和本机验证"
+  default_prompt: "使用 $mathtype-texvc，保留我的公式含义，整理成目标 MathType 入口适用的源码，并说明尚未实际验证的部分。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "数模国赛问题重述"
+  short_description: "围绕现实矛盾重构背景与逐问任务，保留关键条件并遵守当前论文模板"
+  default_prompt: "使用 $cumcm-problem-restatement，依据题目和附件说明撰写问题重述，保全各问任务并沿用我指定的结构。"

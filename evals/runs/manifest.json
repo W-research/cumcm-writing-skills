@@ -1,0 +1,148 @@
+{
+  "verified_on": "2026-10-28",
+  "runner": "codex-cli 0.164.0-alpha.11.1",
+  "configured_model": "gpt-6-astra",
+  "backend_build": "not reported",
+  "contexts": "separate ephemeral processes",
+  "catalog_probe": {
+    "observed": [
+      "cumcm-abstract",
+      "cumcm-model-assumptions",
+      "cumcm-problem-analysis",
+      "cumcm-problem-restatement",
+      "mathtype-texvc"
+    ],
+    "exact_match": true,
+    "generated_on": "2026-10-27"
+  },
+  "content_loading": "harness_inline: complete selected SKILL.md and reference Markdown supplied verbatim; native on-demand loading not covered",
+  "other_skill_bodies_loaded": false,
+  "tool_access_during_scored_runs": false,
+  "sample_count": {
+    "routing_requests": 14,
+    "content_outputs": 2,
+    "saved_runs_per_group": 1
+  },
+  "case_records": {
+    "C01": {
+      "generated_on": "2026-10-27",
+      "basis": "retained content run; selected skill, reference Markdown and input verified unchanged since generation",
+      "output": "evals/runs/C01.md",
+      "output_sha256": "87bb8096b6c8fb92d7ba25169ee631b841b2f5cc260f9f0a5ec24810ae87d80c",
+      "output_unedited": true
+    },
+    "C02": {
+      "generated_on": "2026-10-28",
+      "basis": "new isolated generation; selected skill, reference Markdown and input verified unchanged since generation",
+      "output": "evals/runs/C02.md",
+      "output_sha256": "b87ff99dfbe08dddebea37869ba62f1762002170d4fd54104fc7cc1f4d3c4f1d",
+      "output_unedited": true
+    },
+    "routes": {
+      "generated_on": "2026-10-27",
+      "basis": "retained run; exposed metadata and routing input verified unchanged",
+      "output": "evals/runs/routes.json",
+      "output_sha256": "ce6ef7639f3f103b5d47efb1f1d6a36daea000ecf2406af4edba48650b39f557",
+      "output_unedited": true
+    },
+    "routes-conflict": {
+      "generated_on": "2026-10-27",
+      "basis": "retained run; exposed metadata and routing input verified unchanged",
+      "output": "evals/runs/routes-conflict.json",
+      "output_sha256": "a1449018b4cb5c6ee19c7c48eb07d9a4189db66ead20e1c054a7f800418d7601",
+      "output_unedited": true
+    }
+  },
+  "C02_input_unchanged": true,
+  "C02_grader_update": "added a negative control for material-gap clauses missed by the previous pattern; numerical requirements unchanged",
+  "C02_generation_attempts": 2,
+  "C02_initial_attempt": "rejected by semantic review: material-gap clause remained inside paper copy",
+  "fixture_isolation": {
+    "checked_cases": [
+      "C02"
+    ],
+    "check": "input-derived distinctive numeric literals and scenario phrases absent from skills text",
+    "C01_role": "known-source structural regression; shared official problem is not unseen-topic evidence",
+    "C02_role": "development regression with isolated fixture facts; not an untouched holdout"
+  },
+  "comparison": {
+    "additional_metadata": "math-modeling-paper",
+    "body_executed": false,
+    "overlapping_requests": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R07",
+      "R08",
+      "R12",
+      "R13",
+      "R14"
+    ]
+  },
+  "semantic_review": {
+    "reviewer_type": "assistant",
+    "C01": "pass: requested three-section template, D-rating policy, conditional lending and question-specific budgets retained",
+    "C02": "pass: bounded 240-item test-set result, 5 percentage points, 70/540/3 plan, no feasible original candidate after shift; no work-status caveat in paper copy and no invented replacement"
+  },
+  "native_word_mathtype": "usage experience and per-case tests tracked separately in skills/mathtype-texvc/references/native-tests.json",
+  "fingerprint_scope": "release snapshot; case_records state which material was generated or retained",
+  "skill_and_input_sha256": {
+    "skills/cumcm-abstract/SKILL.md": "6af034a8f957f7d5cc9c3fdd941d82e4c02968b0f0b59dd6287c13b097c5f0f3",
+    "skills/cumcm-abstract/agents/openai.yaml": "b53ac52b8548da4d3657ba57be32c84eecb6fed6e85d31ba4c8042def247f6f9",
+    "skills/cumcm-abstract/references/abstract-writing.md": "cee9e1d0d0a41feaecbb5d0096e65838985e1ba94732c7842ddc9415cbe4e194",
+    "skills/cumcm-abstract/references/competition-compliance.md": "43de8c836fc108cb98b1bcc6979a7d44dfece124adcd4d627fb81517315b8467",
+    "skills/cumcm-abstract/references/decision-points.md": "1d142a341ee652ae834a5892544c24c2986fae04266bc78081cc9b45d4ae9796",
+    "skills/cumcm-abstract/references/official-2020-c-source.json": "9378c919bf8b367614e9ee1dd62d80de69517d1fff20506625651a140fc10f6e",
+    "skills/cumcm-abstract/references/official-credit-evidence.md": "a6fde33e51dbe8bab4dc20ed3eef203cfa013ecfa6d8372d1fa7aeffcffa05b8",
+    "skills/cumcm-abstract/references/teaching-examples.md": "328eca30d7fcfeb7f1b2ba3ee80c1be600ec498f616aea7636c43a9ad62499c8",
+    "skills/cumcm-abstract/references/title-keywords.md": "cc3c3913c5920b68faf4bff565dc05f96d379f905bb5d1b2ef8aafb9c728f358",
+    "skills/cumcm-abstract/references/worked-example.md": "bead23f482affbbe98d26431836eeb21b18ccd2a1bd45ca169a5d4afcd3d4b8d",
+    "skills/cumcm-model-assumptions/SKILL.md": "eea9093bc5723999f5161af85249b779ebfa2aea748de72c3e7807539aaefdda",
+    "skills/cumcm-model-assumptions/agents/openai.yaml": "9775ad938f7769d6dcf522c283d1f26951854d4d4de8fd33225eb7cbb3bef6dd",
+    "skills/cumcm-model-assumptions/references/evidence-and-validation.md": "59ba700f2c79d47461508c12afc9e79874a46008944b9b33c3f4ade3e9c06fee",
+    "skills/cumcm-model-assumptions/references/examples-decision.md": "0cb61089d36e18792cc2076f9c55ad86f29621d52ac32b8b2440f9ee4ce24599",
+    "skills/cumcm-model-assumptions/references/examples-heat.md": "55e3803ff6f90e0884d2199b4e9ab74a73496e086276986f7f6b76b81ef6560a",
+    "skills/cumcm-model-assumptions/references/examples-measurement.md": "1370507df7274fee88a39b3e344e2ef0dc47b8ec8da0724b2930701694bd607f",
+    "skills/cumcm-model-assumptions/references/model-prerequisites.md": "c70d1b345ddfdd2bcac4dcc1ac5fd20b66381d51c786ab2e403bb6b573a6ad16",
+    "skills/cumcm-model-assumptions/references/official-2020-c-source.json": "9378c919bf8b367614e9ee1dd62d80de69517d1fff20506625651a140fc10f6e",
+    "skills/cumcm-model-assumptions/references/official-credit-assumptions.md": "6b2cfccfb1c72d50593f5f927ac875bae2a7164a923e791dada2ade777db8578",
+    "skills/cumcm-model-assumptions/references/selection-and-scope.md": "3bc1b8e2756bfecb334db27a278e28f0ffd927bed0647d78a1b76c07b4b3e93e",
+    "skills/cumcm-model-assumptions/references/sources.md": "7bf52a8094983fe4545593987befcb37e34f8c747d4344a71b33d06b6895d56c",
+    "skills/cumcm-model-assumptions/references/worked-example.md": "38b07221c2edaecd91112ce164468206feecf4e3911ea22d376b1a7484b53f54",
+    "skills/cumcm-model-assumptions/references/writing-and-review.md": "c17edc2528b1fab1d4a5e46c8672fdcbcc5fd8075b1d23a7fe5b942c8b5b9d9f",
+    "skills/cumcm-problem-analysis/SKILL.md": "851684c8e6806629dd8d3251aa42d4acf8fb6b754fa77848e281dbacf5ffa58c",
+    "skills/cumcm-problem-analysis/agents/openai.yaml": "0b043e2be88d935f84bcffea08ca13954005d5a5311e2b43207330e7aa48424f",
+    "skills/cumcm-problem-analysis/references/examples-finance-evaluation.md": "b447e99f0e9f3fb3391d49e71cc8775e8f7343ed1ad64cc39f12a856b27a8263",
+    "skills/cumcm-problem-analysis/references/examples-mechanics.md": "8021e6a3adb81a6d805b007d7e244f3729445ec221e1ce52ddd4050a2370caa2",
+    "skills/cumcm-problem-analysis/references/flowchart.md": "22230bc35ce1f98f8d8bfcc8ba4c5d67d4ad36272a5e9473d61a73bb4a5e113b",
+    "skills/cumcm-problem-analysis/references/official-2020-c-source.json": "9378c919bf8b367614e9ee1dd62d80de69517d1fff20506625651a140fc10f6e",
+    "skills/cumcm-problem-analysis/references/reasoning-and-comparison.md": "22b6ae80e508169e8239cdffd90da9ff8fe239000759e9d7ba4cb552310b8dae",
+    "skills/cumcm-problem-analysis/references/review-and-rewrite.md": "1fdd52157b0163800f379a0491cbad90a3b66f72bcefd316cabfcfa0cfbbde9b",
+    "skills/cumcm-problem-analysis/references/sources.md": "2742b6c3d1811748661ed95774ee5cd5caed39eb3996742331ad49fac3d4aea6",
+    "skills/cumcm-problem-analysis/references/third-party.md": "c62025ba698d6356efdf4c21a4f81964c9fa5bf06e2bc846982364633341aef6",
+    "skills/cumcm-problem-analysis/references/validation-and-dependencies.md": "db39e4d1529cd2e9b0fb04015b2967291493f3f68cb113a65f64455ac46fa7a2",
+    "skills/cumcm-problem-analysis/references/worked-example.md": "83bd4c9031a0e29b0c2338c60f5caa5e56a071f720f3d10f9ca3efc14320ebba",
+    "skills/cumcm-problem-restatement/SKILL.md": "ccb2ee284705f8e19fd8a5c954d46c7b267472a2a179c88335e0dae9fea4a3cf",
+    "skills/cumcm-problem-restatement/agents/openai.yaml": "105d6ed6873d1f604ba47479ffe25a3020a45b7e09740d69730665e5792fb6b3",
+    "skills/cumcm-problem-restatement/references/advanced-writing.md": "488d08e4dc5400a8050d7d77c8b1ed15cb6b3a69394b97de702d3a39e05589ae",
+    "skills/cumcm-problem-restatement/references/example-credit.md": "a013a4ee1d8e308205cdcc34a6e37d4aebc792b99830a875795475760260ab01",
+    "skills/cumcm-problem-restatement/references/example-transfer.md": "7408091da6c9992bd16797c0a524862634c798e62f941acdbe515be88c2d1812",
+    "skills/cumcm-problem-restatement/references/fact-contract.md": "bda7d36efaa600d1bcef234a984023446346fa534f348e4fddcce98c25fe81d8",
+    "skills/cumcm-problem-restatement/references/official-2020-c-source.json": "9378c919bf8b367614e9ee1dd62d80de69517d1fff20506625651a140fc10f6e",
+    "skills/cumcm-problem-restatement/references/review-and-pitfalls.md": "a67d54fd3b3bcbe3daf473d0b8847e3d83699b118cf67bf3ae76b2ff5d76d36d",
+    "skills/cumcm-problem-restatement/references/sources.md": "17b23ed1a4c4e67d16a277e3ac62dd55195c9506b4c8533e2346716b598c28e1",
+    "skills/cumcm-problem-restatement/references/third-party.md": "c62025ba698d6356efdf4c21a4f81964c9fa5bf06e2bc846982364633341aef6",
+    "skills/cumcm-problem-restatement/references/worked-example.md": "867808e614b5984c55d5b47dafd45ee6fa070790c2d70d01d37ddf62d8233888",
+    "skills/mathtype-texvc/SKILL.md": "73471c5877340d0e7c99c00965899502c0d059d35b3d27fcec59254e4f5f4f38",
+    "skills/mathtype-texvc/agents/openai.yaml": "b49af1dc7f989ecbea3b0a7454be669866f04ea738857e10f566d13673626f36",
+    "skills/mathtype-texvc/references/manual-tests.md": "3b9d874358cd8772d61a7ad068eb3fd7921fe330d37305cf2b2ad004f8105114",
+    "skills/mathtype-texvc/references/native-tests.json": "26431a1c42f2413c359562ebbfbddb6a6f21c1e16d5976d496e90965ec4cbae5",
+    "skills/mathtype-texvc/references/test-matrix.md": "1c01ba2441c48c62ae046c764beac134c2faf51ce1f4f1cdf55b9b85c244525d",
+    "skills/mathtype-texvc/references/texvc-reference.md": "fb87e83c1241f77d6b45d85c85a83482315e74868893ea1183fb994412788135",
+    "evals/inputs/inspection-abstract.md": "a9468a5ba90aecd452e0ff06996b5a9f14c9fed2cfec64b64503246ec6852478",
+    "evals/inputs/real-restatement.md": "70d1262f2efad0e8b84ada23bf4d4e75a27ed5e59ca1549269f890d8a1554cbc",
+    "evals/inputs/routing.json": "0a8d66529be6190c7c616ac06cdf893553c838e7be1f8dbcfd70589d72f157a0",
+    "evals/cases.json": "dff81abe3240d938075326d66edd07f41ffefaf9c5311df184d47c748fbfffa0"
+  }
+}

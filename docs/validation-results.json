@@ -1,0 +1,70 @@
+{
+  "checked_on": "2026-10-28",
+  "checks": [
+    {
+      "name": "unit_tests_linux",
+      "exit_code": 0,
+      "tests": 41
+    },
+    {
+      "name": "unit_tests_windows",
+      "exit_code": 0,
+      "tests": 41
+    },
+    {
+      "name": "output_invariants",
+      "exit_code": 0
+    },
+    {
+      "name": "freshness_warning",
+      "exit_code": 0
+    },
+    {
+      "name": "freshness_release",
+      "exit_code": 0
+    },
+    {
+      "name": "skill_metadata:cumcm-abstract",
+      "exit_code": 0
+    },
+    {
+      "name": "skill_metadata:cumcm-model-assumptions",
+      "exit_code": 0
+    },
+    {
+      "name": "skill_metadata:cumcm-problem-analysis",
+      "exit_code": 0
+    },
+    {
+      "name": "skill_metadata:cumcm-problem-restatement",
+      "exit_code": 0
+    },
+    {
+      "name": "skill_metadata:mathtype-texvc",
+      "exit_code": 0
+    }
+  ],
+  "all_pass": true,
+  "route_conflict_observed": true,
+  "native_client_installation_test": false,
+  "native_mathtype_records": "skills/mathtype-texvc/references/native-tests.json",
+  "native_record_counts": {
+    "author_usage": 1,
+    "pass": 0,
+    "fail": 0,
+    "not_run": 0,
+    "skipped": 0
+  },
+  "loading_method": "inline isolated instruction evaluation; not native file loading",
+  "model_evidence": "C02 newly generated after fixture isolation; C01 and routing evidence retained after relevant material equality checks",
+  "known_risks": [
+    "Broad chapter-writing skill metadata can activate alongside a specific chapter skill."
+  ],
+  "entrypoint_bytes": {
+    "cumcm-abstract": 7132,
+    "cumcm-model-assumptions": 4881,
+    "cumcm-problem-analysis": 4882,
+    "cumcm-problem-restatement": 4278,
+    "mathtype-texvc": 6603
+  }
+}

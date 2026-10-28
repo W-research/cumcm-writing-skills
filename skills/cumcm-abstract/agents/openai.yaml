@@ -1,0 +1,4 @@
+interface:
+  display_name: "数模国赛首页"
+  short_description: "撰写与审查国赛论文标题、摘要和关键词，选择性加粗核心模型与关键结果"
+  default_prompt: "使用 $cumcm-abstract，根据我提供的赛题、论文和结果材料整理标题、摘要与关键词，突出主要方法和答案，并集中说明必要的证据缺口。"

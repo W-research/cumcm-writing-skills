@@ -1,0 +1,4 @@
+interface:
+  display_name: "国赛模型假设"
+  short_description: "提炼必要且可检验的国赛模型假设，提供依据、适用边界与案例辨析"
+  default_prompt: "请使用 $cumcm-model-assumptions，根据题目与现有建模方案撰写或审查模型假设，说明其作用和依据，区分已验证与待验证内容。"

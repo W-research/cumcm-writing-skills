@@ -1,0 +1,4 @@
+interface:
+  display_name: "数模国赛问题分析"
+  short_description: "逐问解释数学本质、输入输出、模型取舍、求解检验与问题间的数据依赖"
+  default_prompt: "使用 $cumcm-problem-analysis，逐问撰写问题分析，说明模型选择与合理替代方案的取舍、求解检验及问题间关系。"

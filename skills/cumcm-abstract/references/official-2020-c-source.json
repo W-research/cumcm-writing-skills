@@ -1,0 +1,16 @@
+{
+  "source_id": "O-C2020",
+  "checked_on": "2026-10-26",
+  "official_page": "https://www.mcm.edu.cn/html_cn/node/10405905647c52abfd6377c0311632b5.html",
+  "archive_url": "https://www.mcm.edu.cn/upload_cn/node/585/05k6B8WT92d3955f5c5e95dd086e59163e5f584b.rar",
+  "archive_sha256": "04ea454f8a1559dac2dc5b7cf599bceb10cd6a0b6f2df55a35ca4450814239dd",
+  "redistributed_original_files": false,
+  "verified_local_files": [
+    {"path": "C/2020C-中小微企业的信贷决策.docx", "sha256": "d16b3e230eb616ac88ae5d5c172a4434d1814322d158e975c0959c95d49bb67d", "zip_crc_ok": true, "read_scope": "complete problem text including embedded math and data definitions"},
+    {"path": "C/附件1：123家有信贷记录企业的相关数据.xlsx", "sha256": "450df5f7184aa43b3b1cddaa4387cceb91d4881a666e667b7c84c480a8b2b600", "zip_crc_ok": true, "read_scope": "all enterprise metadata; invoice sheet structure and first data rows, not full invoice analysis"},
+    {"path": "C/附件2：302家无信贷记录企业的相关数据.xlsx", "sha256": "1399075d2b39a05da6d7722af16cb96ed322cf13b96dd780d5d42a7686bc634b", "zip_crc_ok": true, "read_scope": "sheet structure and first data rows, not feature extraction or credit optimization"},
+    {"path": "C/附件3：银行贷款年利率与客户流失率关系的统计数据.xlsx", "sha256": "abdbdf684b76d2ea2675233662d5e3db346314716ffd911d1389599410624056", "zip_crc_ok": true, "read_scope": "sheet structure and grouped headers; no curve fitting"}
+  ],
+  "enterprise_metadata_check": {"records": 123, "ratings": {"A": 27, "B": 38, "C": 34, "D": 24}, "default_labels": {"是": 27, "否": 96}},
+  "limits": ["No trained model", "No optimized lending policy", "No completed competition-paper abstract", "Official data rights remain with their holders"]
+}
