@@ -1,5 +1,7 @@
 # CUMCM Writing Skills
 
+[![skill-checks](https://github.com/W-research/cumcm-writing-skills/actions/workflows/checks.yml/badge.svg)](https://github.com/W-research/cumcm-writing-skills/actions/workflows/checks.yml)
+
 English | [中文](README.zh.md)
 
 CUMCM Writing Skills is a set of five agent skills for writing papers for Chinese mathematical modeling contests. They cover the problem restatement, problem analysis, model assumptions, title / abstract / keywords, and formula source that converts with MathType in Word. The default target is CUMCM (全国大学生数学建模竞赛); the same skills can follow the templates of other contests such as the Electrician Cup (电工杯), Huashu Cup (华数杯) and MathorCup.
@@ -80,7 +82,9 @@ python evals/check_outputs.py --responses evals/runs
 python evals/check_freshness.py
 ```
 
-These checks read local files only and never call a model. A changed skill fingerprint only produces a warning, so typo and link fixes are not blocked; run `python evals/check_freshness.py --release` before a release. See [evals/README.md](evals/README.md) for how model outputs are generated and checked, and [docs/validation.md](docs/validation.md) for the validation levels. MathType results are recorded with the [manual test checklist](skills/mathtype-texvc/references/manual-tests.md).
+The checks use only the Python standard library. Python 3.11 or later is enough, and CI runs on 3.11. They read local files only and never call a model. A changed skill fingerprint only produces a warning, so typo and link fixes are not blocked; run `python evals/check_freshness.py --release` before a release. See [evals/README.md](evals/README.md) for how model outputs are generated and checked, and [docs/validation.md](docs/validation.md) for the validation levels. MathType results are recorded with the [manual test checklist](skills/mathtype-texvc/references/manual-tests.md).
+
+Some files are copied into the skill folders so that each skill also works when installed on its own. `examples/official-2020-c/source.json` is copied to `references/official-2020-c-source.json` in four skills, and the upstream license texts in `licenses/` are copied to two skills. Edit the original and update every copy in the same change; the tests check that the copies match.
 
 Issues and pull requests are welcome.
 
