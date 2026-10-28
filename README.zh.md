@@ -1,5 +1,7 @@
 # CUMCM Writing Skills
 
+[![skill-checks](https://github.com/W-research/cumcm-writing-skills/actions/workflows/checks.yml/badge.svg)](https://github.com/W-research/cumcm-writing-skills/actions/workflows/checks.yml)
+
 [English](README.md) | 中文
 
 CUMCM Writing Skills 是一组用于数学建模竞赛论文写作的智能体 Skill，共五个，覆盖问题重述、问题分析、模型假设、标题摘要关键词，以及可在 Word 中用 MathType 转换的公式源码。默认面向全国大学生数学建模竞赛（国赛/CUMCM），也可按电工杯、华数杯、MathorCup 等比赛的模板使用。
@@ -76,7 +78,9 @@ python evals/check_outputs.py --responses evals/runs
 python evals/check_freshness.py
 ```
 
-这些检查只读本地文件，不调用模型。Skill 指纹变化默认只给警告，修改错别字、链接不会被挡住；正式发版前运行 `python evals/check_freshness.py --release`。模型输出的生成与检查方式见 [evals/README.md](evals/README.md)，各层验证见 [docs/validation.md](docs/validation.md)。MathType 实测按[手工测试清单](skills/mathtype-texvc/references/manual-tests.md)记录。
+这些检查只用 Python 标准库，Python 3.11 及以上即可，CI 使用 3.11。它们只读本地文件，不调用模型。Skill 指纹变化默认只给警告，修改错别字、链接不会被挡住；正式发版前运行 `python evals/check_freshness.py --release`。模型输出的生成与检查方式见 [evals/README.md](evals/README.md)，各层验证见 [docs/validation.md](docs/validation.md)。MathType 实测按[手工测试清单](skills/mathtype-texvc/references/manual-tests.md)记录。
+
+为了让每个 Skill 单独安装也能用，有些文件复制到了各 Skill 目录里：`examples/official-2020-c/source.json` 复制为四个 Skill 中的 `references/official-2020-c-source.json`，`licenses/` 里的上游许可证复制到了两个 Skill 中。修改时先改原件，并在同一次提交里同步所有副本；测试会检查副本是否一致。
 
 欢迎提交 Issue 和 Pull Request。
 
