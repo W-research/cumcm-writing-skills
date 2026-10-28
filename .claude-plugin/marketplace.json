@@ -1,0 +1,16 @@
+{
+  "name": "cumcm-writing-skills",
+  "description": "面向数学建模竞赛的章节写作、摘要表达与 MathType 公式交付技能市场。",
+  "owner": {"name": "W"},
+  "plugins": [
+    {
+      "name": "cumcm-writing-skills",
+      "source": "./",
+      "description": "数学建模竞赛的摘要、重述、分析、假设写作与 MathType 公式交付。",
+      "version": "0.1.0",
+      "author": {"name": "W"},
+      "license": "MIT",
+      "keywords": ["cumcm", "mathematical-modeling", "academic-writing", "mathtype"]
+    }
+  ]
+}

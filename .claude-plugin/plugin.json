@@ -1,0 +1,10 @@
+{
+  "name": "cumcm-writing-skills",
+  "version": "0.1.0",
+  "description": "国赛论文标题摘要、问题重述、问题分析、模型假设与 MathType 公式交付技能。",
+  "author": {"name": "W"},
+  "license": "MIT",
+  "homepage": "https://github.com/W-research/cumcm-writing-skills",
+  "repository": "https://github.com/W-research/cumcm-writing-skills",
+  "keywords": ["cumcm", "mathematical-modeling", "academic-writing", "mathtype", "chinese"]
+}

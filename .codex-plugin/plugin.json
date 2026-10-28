@@ -1,0 +1,15 @@
+{
+  "name": "cumcm-writing-skills",
+  "version": "0.1.0",
+  "description": "国赛论文章节写作、证据核对与 MathType 公式源码交付。",
+  "author": {"name": "W"},
+  "license": "MIT",
+  "homepage": "https://github.com/W-research/cumcm-writing-skills",
+  "repository": "https://github.com/W-research/cumcm-writing-skills",
+  "keywords": ["cumcm", "mathematical-modeling", "academic-writing", "mathtype"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "国赛论文写作 Skills",
+    "shortDescription": "逐问组织论文内容，核对证据并按需交付 MathType 公式"
+  }
+}
